@@ -1,0 +1,480 @@
+/**
+ * Panel Style
+ */ 
+#page-ot_theme_options #option-tree-header-wrap {
+    position: absolute;
+    z-index: 2;
+    background: transparent;
+}
+/* Backup Page */
+.wrap.settings-wrap#page-settings #option-tree-header-wrap, .wrap.settings-wrap#page-settings #option-tree-sub-header {
+    display: none;
+}
+#option-tree-header-wrap #option-tree-header {
+    background: transparent;
+}
+#option-tree-settings-api {
+	position: relative;
+}
+#option-tree-header-wrap #option-tree-header #option-tree-version {
+    font-size: 1.8em;
+}
+/* Panel Footer */
+#option-tree-settings-api .option-tree-ui-buttons {
+    margin: 0px 5px 0 2px;
+    border: none;
+    background: #23282d;
+}
+/* Inside */ 
+#wpbody-content #option-tree-settings-api .metabox-holder {
+    padding-top: 0;
+}
+/* Inside Backup Page */
+.wrap.settings-wrap#page-settings #option-tree-settings-api .metabox-holder {
+    padding: 0 30px 30px 30px;
+}
+#page-ot_theme_options #option-tree-settings-api > .ui-tabs, .wrap.settings-wrap#page-settings #option-tree-settings-api > .ui-tabs{
+    border:none;
+    padding-bottom: 0;
+}
+#page-ot_theme_options #option-tree-settings-api #post-body-content, .wrap.settings-wrap#page-settings #option-tree-settings-api #post-body-content{
+    margin-bottom: 0;
+}
+/* Header */
+#page-ot_theme_options, .wrap.settings-wrap#page-settings{
+    position: relative;
+    margin-top: 45px;
+}
+#page-ot_theme_options>h2, .wrap.settings-wrap#page-settings>h2 {
+    display: none;
+}
+#option-tree-settings-api {
+    clear: both;
+}
+#option-tree-settings-api #option-tree-sub-header {
+ 	border: 0;
+    box-shadow: none;
+    background: #23282d;
+}
+ /* Save Button */
+#option-tree-settings-api #option-tree-sub-header .option-tree-ui-button, #option-tree-settings-api .option-tree-ui-buttons .option-tree-ui-button {
+	height: 40px !important;
+    padding: 0 25px 1px !important;
+    border-radius: 20px;
+    font-size: 14px!important;
+    background: #695084;
+    color: #fefdff;
+    border: 1px solid #695084;   
+    box-shadow: none;
+    font-weight: 600;
+    text-shadow: none;
+    margin-top: 10px;
+}
+#option-tree-settings-api .option-tree-ui-buttons .option-tree-ui-button {
+    top: -3px;
+    position: relative;
+}
+ /* Reset Button */
+#page-ot_theme_options .option-tree-ui-button.button-secondary.reset-settings, .wrap.settings-wrap#page-settings .option-tree-ui-button.button-secondary.reset-settings{
+    height: 40px !important;
+    padding: 0 25px 1px !important;
+    border-radius: 20px;
+    font-size: 14px!important;
+    background: #cc4c52;
+    color: #fefdff;
+    border: 1px solid #cc4c52;
+    box-shadow: none;
+    font-weight: 600;
+    text-shadow: none;
+    top: -58px;
+    left: 8px;
+}
+
+ #option-tree-settings-api .wp-person a:focus .gravatar, #option-tree-settings-api a:focus, #option-tree-settings-api a:focus .media-icon img {
+	box-shadow: none;
+ }
+ /* Navigation */
+ #wpbody-content #option-tree-settings-api>.ui-tabs>.ui-widget-header {
+ 	float: none;
+ 	width: 100%;
+    background: #23282d;
+    margin: 0;
+    padding: 0;
+ }
+#wpbody-content #option-tree-settings-api>.ui-tabs>.ui-widget-header li {
+	display: inline-block;
+    background: transparent;
+    border: 0;
+}
+#wpbody-content #option-tree-settings-api>.ui-tabs>.ui-widget-header li.ui-state-active {
+	border: none;
+}
+#wpbody-content #option-tree-settings-api>.ui-tabs>.ui-widget-header li>a {
+	line-height: 9;
+    height: 70px;
+    color: #b2b2b2;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px 40px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#wpbody-content #option-tree-settings-api>.ui-tabs>.ui-widget-header li>a:hover, 
+#wpbody-content #option-tree-settings-api>.ui-tabs>.ui-widget-header li.ui-state-active>a{
+    color: #ececec;
+	background: #32373c;
+}
+#wpbody-content #option-tree-settings-api>.ui-tabs>.ui-widget-header li>a:hover::before, 
+#wpbody-content #option-tree-settings-api>.ui-tabs>.ui-widget-header li.ui-state-active>a:before{
+	-webkit-filter:brightness(150%);
+	filter:brightness(150%);
+	opacity: 1;
+}
+#wpbody-content #option-tree-settings-api>.ui-tabs>.ui-widget-header li>a:before {
+	content: "";
+    background-image: url(../img/icons3.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    display: block;
+    float: left;
+    box-shadow: none;
+    position: absolute;
+    left: calc(50% - 20px);
+    top: 20px;
+    opacity: 0.8;
+}
+#tab_general_options>a:before{
+	background-position: -148px -355px;
+}
+#tab_style_options>a:before{
+	background-position: -95px -148px;
+}
+#tab_header_options>a:before{
+	background-position: -408px -666px;
+}
+#tab_footer_options>a:before{
+	background-position: -356px -666px;
+}
+#tab_blog_options>a:before{
+	background-position: -408px -94px;
+}
+#tab_contact_options>a:before{
+	background-position: -96px -407px;
+}
+#tab_social_options>a:before{
+	background-position: -305px -719px;
+}
+#tab_shop_options>a:before{
+	background-position: -460px -719px;
+}
+#tab_advanced_options>a:before{
+	background-position: -253px -407px;
+}
+
+/* Backup Tabs */
+#tab_import>a:before{
+    background-position: -203px -771px;
+}
+#tab_export>a:before{
+    background-position: -148px -771px;
+}
+#tab_layouts>a:before{
+    background-position: -95px -148px;
+}
+
+#option-tree-settings-api #poststuff, #option-tree-settings-api #post-body-content {
+	background: #fff;
+}
+
+/* Vertical tabs / Inner Tabs */
+#option-tree-settings-api .ot-theme-option-tabs.ui-tabs {
+	background: #e1e1e2;
+}
+#option-tree-settings-api .ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav {
+	float: left;
+	width: 17%;
+	margin: 0;
+	height: 100%;
+    border: none;
+}
+#option-tree-settings-api .ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li {
+	float: none;
+	border: none;
+    background: transparent;
+	margin: 0;
+}
+#option-tree-settings-api .ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li>a{
+	padding: 12px 12px 12px 20px!important;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+#option-tree-settings-api .ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li.ui-state-active a, 
+#option-tree-settings-api .ot-theme-option-tabs.ui-tabs .ot-theme-option-nav.ui-tabs-nav li>a:hover {
+	background: #b9b2bf;
+    color: #fff;
+}
+#option-tree-settings-api .ot-theme-option-tabs.ui-tabs .ot-theme-option-panels {
+	width: 83%;
+	background: #fff;
+    padding: 0 20px 30px 20px;
+    box-sizing: border-box;
+    min-height: 400px;
+}
+.settings-wrap #option-tree-settings-api .postbox {
+	margin: 0;
+}
+/* Inputs */
+/* Option Labels */
+#option-tree-settings-api .format-setting-label {
+	border-bottom: 1px solid #e0dede;
+}
+/* Numeric Slider */
+#option-tree-settings-api .type-numeric-slider .format-setting-inner {
+	border: none;
+}
+#option-tree-settings-api .ot-numeric-slider.ui-slider {
+    height: 9px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+}
+#option-tree-settings-api .ot-numeric-slider.ui-slider {
+	border: none;
+	box-shadow: none;
+}
+#option-tree-settings-api .ot-numeric-slider.ui-slider .ui-slider-handle {
+	width: 22px;
+    height: 22px;
+    background: #695084 !important;
+    cursor: move;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
+    border-radius: 100%;
+    border: none;
+    margin: -7px -8px;
+}
+#option-tree-settings-api .ot-numeric-slider-wrap .ot-numeric-slider-helper-input {
+	top: 3px;
+	border-radius: 50px;
+	box-shadow: none;
+}
+
+/* Radio */
+#option-tree-settings-api {
+	font-size: 14px;
+}
+#option-tree-settings-api input[type=radio] {
+	border: 3px solid #d9d9d9;
+	width: 24px;
+	height: 24px;
+	min-width: 24px;
+	box-shadow: none;
+}
+#option-tree-settings-api input[type=radio]:checked:before {
+	width: 10px;
+    height: 10px;
+    margin: 4px;
+    background-color: #695084;
+}
+#option-tree-settings-api .format-setting.type-radio label {
+	line-height: 24px;
+	font-size: 14px;
+}
+
+/* Color Picker */
+#option-tree-settings-api .option-tree-ui-colorpicker-input-wrap .wp-color-result {
+    padding-left: 50px;
+}
+#option-tree-settings-api .option-tree-ui-colorpicker-input-wrap .wp-color-result:after {
+    padding: 0 11px;
+}
+
+/* Upload */
+#option-tree-settings-api input.option-tree-ui-upload-input, #option-tree-settings-api input.option-tree-ui-input {
+    border-radius: 2px 0 0 2px;
+    border: 1px solid #d9d9d9!important;
+}
+#option-tree-settings-api .option-tree-ui-button.button.ot_upload_media {
+    right: -40px;
+    border-radius: 0 2px 2px 0;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+    background: #695084;
+    box-sizing: border-box;
+    border: 1px solid #695084;
+}
+#option-tree-settings-api .ot_upload_media .icon {
+    margin-top: 4px;
+    margin-left: 1px;
+}
+
+/* Switch */
+#option-tree-settings-api .on-off-switch {
+    border-radius: 25px;
+    width: 60px;
+    height: 28px;
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+}
+#option-tree-settings-api .on-off-switch label {
+    border-radius: 25px;
+    color: transparent;
+}
+#option-tree-settings-api .on-off-switch input:last-of-type + label, 
+#option-tree-settings-api .on-off-switch input:last-of-type:checked + label,
+#option-tree-settings-api .on-off-switch input:checked + label {
+    color: transparent;
+}
+#option-tree-settings-api .on-off-switch .slide-button {
+    border-radius: 21px;
+    height: 28px;
+    width: 28px;
+    top: 0px;
+    background: #bcde67;
+    border: 1px solid #b2d461;
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
+}
+#option-tree-settings-api .on-off-switch input:last-of-type:checked ~ .slide-button {
+    left: 53%;
+    background: #da533d;
+    border-color: #b34432;
+}
+/* pre */
+#option-tree-settings-api pre.ace-chrome, #poststuff .type-css pre.ace-chrome, #poststuff .type-javascript pre.ace-chrome {
+    border: 1px solid #dcdcdc!important;
+}
+#option-tree-settings-api pre {
+    line-height: 25px!important;
+}
+.ace_gutter-cell.ace_info {
+    background-color: #eaeaa5;
+}
+
+/* Radio Image Selector */
+#option-tree-settings-api .type-radio-image .option-tree-ui-radio-images img{
+    border: 3px solid #dcdcdc;
+}
+#option-tree-settings-api .type-radio-image .option-tree-ui-radio-images img.option-tree-ui-radio-image-selected, 
+#option-tree-settings-api .type-radio-image .option-tree-ui-radio-images img:hover {
+    border: 3px solid #bcde67;
+    -webkit-box-shadow: 0 1px 3px rgba(160, 183, 142, 0.05);
+    -moz-box-shadow: 0 1px 3px rgba(160, 183, 142, 0.05);
+    box-shadow: 0 1px 3px rgba(160, 183, 142, 0.05);
+}
+
+/* Preload */
+.brane-preload-option {
+    display: inline-block;
+    margin: 0 15px 15px 0;
+    cursor: pointer;
+}
+.brane_ot_preload_preview {
+    width: 150px;
+    height: 130px;
+    background: #efefef;
+    overflow: hidden;
+    border: 3px solid #dcdcdc;
+}
+.brane_ot_preload_preview.option-tree-ui-radio-image-selected {
+    border: 3px solid #bcde67;
+    -webkit-box-shadow: 0 1px 3px rgba(160, 183, 142, 0.05);
+    -moz-box-shadow: 0 1px 3px rgba(160, 183, 142, 0.05);
+    box-shadow: 0 1px 3px rgba(160, 183, 142, 0.05);
+}
+
+.brane_spinner {     
+    margin: calc(25% + 10px) auto;
+}
+.brane_spinner_8 .brane_spinner{
+    margin: calc(8% + 10px) auto; 
+}
+.brane_spinner_9 .brane_spinner {
+    margin: 15% auto;
+}
+.brane_spinner_12 .brane_spinner {
+    margin: calc(32% + 10px) auto;
+}
+/* Icon Selector */
+.format-settings .icons-selector .selector-popup, .menu-item-settings .icons-selector .selector-popup{
+    position: relative;
+    float: left;
+    border: 1px solid rgb(220, 220, 220);
+}
+.icons-selector .selector-popup .selector-search .fip-icon-search, .icons-selector .selector-pages{ color: #545454;}
+.icons-selector .selector-arrows i{
+  color: #545454!important;
+  font-size: 1.2em;
+}
+.format-setting .icons-selector .selector-popup, .brane_iconpicker .icons-selector .selector-popup{
+  margin-top: 2px;
+}
+.format-setting .icons-selector .selector-search input[type="text"], .brane_iconpicker .icons-selector .selector-search input[type="text"], 
+.icons-selector .selector {
+  border: 1px solid #dcdcdc;
+}
+.format-setting .icons-selector .selector-search i, .brane_iconpicker .icons-selector .selector-search i {
+  top: 12px;
+}
+.format-setting .icons-selector [class*=" fip-icon-"]:before, .format-setting .icons-selector [class^=fip-icon-]:before,
+.menu-item-settings .icons-selector [class*=" fip-icon-"]:before, .menu-item-settings .icons-selector [class^=fip-icon-]:before {
+    content: "\f107";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-family: FontAwesome !important;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fip-icon-right-dir:before {
+    content: "\f105"!important;
+}
+.fip-icon-left-dir:before {
+    content: "\f104"!important;
+}
+.format-setting .icons-selector .selector-popup .selector-footer, .menu-item-settings .icons-selector .selector-popup .selector-footer {
+    position: relative;
+    float: left;
+    width: 100%;
+    line-height: 30px;
+}
+
+/* Spinners */
+.brane_spinner {
+    width: 40px;
+    height: 40px;
+}
+.brane_spinner_1 .brane_spinner {    
+    background-color: #2f2f2f;
+}
+
+/* Radio & Checkbox */
+#wpbody-content #option-tree-settings-api .format-setting.type-checkbox p, #wpbody-content #option-tree-settings-api .format-setting.type-radio p {
+    float: left;
+    margin-right: 20px!important;
+    width: 31%!important;
+}
+
+/* Heading */
+#wpbody-content #option-tree-settings-api .brane_heading_ot-wrap .format-setting-wrap {
+    padding-bottom: 0;
+}
+#wpbody-content #option-tree-settings-api .brane_heading_ot-wrap .format-setting-label {
+    border: none;
+    margin: 0;
+}
+#wpbody-content #option-tree-settings-api .brane_heading_ot-wrap .label {
+    padding: 20px;
+    background: #f3f3f3;
+    margin: 0;
+}

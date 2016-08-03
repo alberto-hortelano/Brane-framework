@@ -1,0 +1,113 @@
+/* Style for Admin */
+.wp-core-ui .notice.is-dismissible {	
+    display: block;
+}
+
+/* Sidebar Generator Panel */
+#brane_custom_sidebars_panel {
+	background: #fff;
+	margin: 30px 0;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.15);
+    box-shadow: 0 1px 1px rgba(0,0,0,.15);
+}
+#brane_custom_sidebars_panel a {
+	text-decoration: none;
+	box-shadow: none;
+	color: #636363;
+	webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    transition: all 0.25s;
+}
+#brane_custom_sidebars_panel a:hover {
+	color: #88478C;	
+}
+.brane_sbp_header {
+	padding: 0 20px;
+	box-sizing: border-box;
+	line-height: 50px;
+	cursor: pointer;
+	background: #23282d;
+}
+.brane_sbp_header h3 {
+	float: left;
+	margin: 0;
+	color: #b2b2b2;
+}
+.brane_sbp_header a.brane_open_panel {
+	float: right;
+	padding: 0 20px;
+    margin-right: -20px;
+}
+.brane_sbp_header a.brane_open_panel i{
+	line-height: 50px;
+	color: #b2b2b2;
+}
+.brane_sbp_content_wrap {
+	padding: 0 20px 20px 20px;
+	box-sizing: border-box;
+	display: none;
+}
+.brane_sbp_content.brane_row{
+	margin: 0 -20px;
+	padding: 20px 0;
+    background: #F9F9F9;
+}
+.brane_sbp_content_wrap .col-6 {
+	padding: 0 20px;
+}
+.brane_single_sidebar {
+	margin-bottom: 15px;
+}
+.brane_single_sidebar .brane_sidebar_trash {
+	float: right;
+}
+.brane_single_sidebar_content{
+	border: 1px solid #e8e8e8;
+	background: #fff;
+	padding: 15px;
+}
+.brane_sidebar_name {
+	font-weight: bold;
+}
+.brane_sbp_footer{
+	padding-top: 20px;
+}
+.brane_sbp_form input, .brane_sbp_form button{
+	height: 30px;
+}
+.brane_sbp_form input {
+	border: 1px solid #e8e8e8;
+	background: #fff;
+	padding-left: 10px;
+}
+.brane_sbp_form button {
+	border: none;
+    padding: 0 15px;
+	color: #fff;
+	font-weight: bold;
+	box-shadow: none;
+    background: #695084;
+    border-radius: 50px;
+    cursor: pointer;
+    webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.brane_remove.to_remove i{
+	color: #E84C3D;
+}
+
+#brane_sys_rep_mail_message_succes, #brane_sys_rep_mail_message_error {
+	margin: 20px;
+    background: #f1f1f1;
+}
+#brane_sys_rep_mail_message_succes p, #brane_sys_rep_mail_message_error p {
+	color: #4c4c4c;
+	font-size: 15px;
+}
+
